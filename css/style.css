@@ -1,0 +1,38 @@
+.cl-all-area {
+   width: full;
+   text-align: center;
+   background: #eeeeee;
+   padding: 5px 5px 25px 5px;
+   margin: 0px;
+   border-bottom: solid 5px black;
+   float: center;
+  }
+.cl-a4-page {
+    width: 30%;
+    text-align: center;
+    background: white;
+    padding: 10px;
+    float: center;
+    margin-left: 35%;
+    box-shadow: 0px 0px 2px 0px #555555
+   }
+
+.cl-block-1,  .cl-block-2, .cl-block-3, .cl-block-4 {
+padding: 5px;
+margin: 0px 35px 0px 35px;
+font-size: 10pt;
+color: black;
+}
+
+.cl-block-1,  .cl-block-2, .cl-block-3 {
+border-bottom: solid 1px black;
+}
+
+.cl-block-2,  .cl-block-3, .cl-block-4 {
+text-align: left;
+}
+
+ul {
+   margin-left: 20px;
+   padding: 0px;
+ }
