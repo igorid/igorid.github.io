@@ -1,8 +1,7 @@
 .cl-all-area {
-  width: auto;
   text-align: center;
   background: #eeeeee;
-  padding: 5px 5px 25px 5px;
+  padding: 5px 5px 25px;
   border-bottom: solid 5px black;
 }
 .cl-a4-page {
@@ -16,7 +15,7 @@
 
 .cl-block-1,  .cl-block-2, .cl-block-3, .cl-block-4 {
   padding: 5px;
-  margin: 0 35px 0 35px;
+  margin: 0 35px;
   font-size: 10pt;
   color: black;
 }
