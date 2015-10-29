@@ -10,7 +10,7 @@
   background: white;
   padding: 10px;
   margin-left: 10%;
-  box-shadow: 0 0 2px 0 #555555
+  box-shadow: 0 0 2px 0 #555555;
 }
 
 .bl-headerfooter,  .bl-mainarea {
@@ -29,7 +29,7 @@
   text-align: center;
   width: 73%;
   border: solid 1px #C8C8C8;
-  margin-bottom: 30px
+  margin-bottom: 30px;
 }
 
 .bl-description {
