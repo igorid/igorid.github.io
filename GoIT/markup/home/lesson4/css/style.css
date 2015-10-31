@@ -1,0 +1,170 @@
+.all-area {
+  text-align: center;
+  background: url(../images/background.jpg);
+  padding: 0 25px 20px 0;
+}
+
+.copyright {
+  padding: 20px 0 0;
+  font-size: 12px;
+  text-align: center;
+  color: white;
+}
+
+.page {
+  width: 1000px;
+  text-align: left;
+  background: white;
+  margin-left: 10%;
+  margin-top: 0px;
+  box-shadow: 1px 1px 1px 0 black;
+}
+
+.logo {
+  box-sizing: border-box;
+  float: left;
+  text-align: left;
+  height: 177px;
+}
+
+.contacts {
+  box-sizing: border-box;
+  float: right;
+  text-align: left;
+  width: 18%;
+  padding-top: 15px;
+  color:#128aa7;
+  font-size:14px;
+}
+
+.countriesbar {
+font-size: 9px;
+width: 75%;
+padding-right: 25px;
+}
+
+.country {
+float: right;
+text-align: center;
+font-size: 10px;
+padding: 5px;
+width: 50px;
+}
+
+countryname {
+  padding: 0px 6px;
+}
+
+.header {
+  position:relative;
+}
+
+.image {
+  box-sizing: border-box;
+  float: right;
+  text-align: center;
+  width: 73%;
+  margin-bottom: 30px;
+}
+
+.description {
+  text-align: left;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  border: none ;
+}
+
+.menu ul {
+  position: absolute;
+  display: none;
+  margin-top: 0;
+  left: -2px;
+  padding: 6px 0 2px;
+  z-index: 3;
+  background: #303030;
+  box-shadow: 1px 1px 2px 1px #222222;
+}
+
+.menu {
+  font-family: sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  margin-top: -2px;
+  padding:  6px 0 0 42px;
+  height: 24px;
+  background: linear-gradient(to bottom, #373737, #242424);
+  box-shadow: 1px 1px 2px 1px #222222;
+}
+
+.menu li {
+  position: relative;
+  float: left;
+  padding: 2px 54px 2px 5px;
+}
+
+.menu ul li {
+  padding: 4px 8px 4px;
+  float: none;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.menu ul li { float: none; }
+.menu li:hover ul a { color: white; }
+.menu li:hover a { color: cyan; }
+.menu ul li:hover a { color: cyan;}
+.menu li:hover ul { display: block;}
+
+.content {
+  width: 100%;
+  margin: 5px 0 0;
+  padding: 0px;
+  display:table;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.content-row {
+  display: table-row;
+}
+
+.content li {
+  display: table-cell;
+  width: 50%;
+  padding: 5px 10px;
+}
+
+.content li:first-child {
+  display: table-cell;
+  width: 20%;
+}
+
+.content li:last-child {
+  display: table-cell;
+  width: 20%;
+}
+
+.cell1 {
+  background-color: #EDEEF0;
+}
+.cell2 {
+  background-color: white;
+}
+.cell3 {
+  background-color: #EDEEF0;
+}
+
+.row1 p, .row3 p {
+  padding: 2px 0;
+}
+
+.submenu-char {
+  font-size: 50%; /* Размер шрифта в процентах */
+  position: relative; /* Относительное позиционирование */
+  bottom: 1px;
+  left: 4px;
+}
