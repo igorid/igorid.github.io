@@ -100,11 +100,9 @@ countryflag {
 .menu li {
   position: relative;
   float: left;
-
 }
 
 .menu ul li {
-
   float: none;
 }
 
@@ -122,9 +120,9 @@ countryflag {
 }
 
 .menu ul li { float: none; }
-.menu li:hover ul a { color: white; }
-.menu li:hover a { color: cyan; }
-.menu ul li:hover a { color: cyan;}
+.menu li ul a:hover { color: white; }
+.menu li a:hover { color: cyan; }
+.menu ul li a:hover { color: cyan;}
 .menu li:hover ul { display: block;}
 
 .content {
