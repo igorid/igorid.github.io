@@ -6,13 +6,20 @@ body {
   width: 75%;
   background: white;
   padding: 10px;
-  margin-left: 10%;
+  margin: 0 auto;
+  width: 1000px;
   box-shadow: 0 0 2px 0 #555;
 }
 
 .header,  .mainarea, .footer {
   padding: 12px 5px;
   margin: 0 35px;
+}
+
+.footer {
+  float: left;
+  width: 100%;
+  padding: 0;
 }
 
 .sidebar {
@@ -52,10 +59,7 @@ ul.mainmenu, ul.footermenu, ul.sidebarmenu {
   background: linear-gradient(to bottom, #5e5e5e, #444343);
 }
 
-ul.footermenu {
-  font-size: 12px;
-  background: #E1E1E1;
-}
+
 
 ul.sidebarmenu {
   font-size: 12px;
@@ -67,14 +71,11 @@ ul.sidebarmenu {
 ul.mainmenu li, ul.footermenu li {
   display: inline-block;
   font-size: 14px;
-  margin-right: 0px;
-  padding: 10px 30px;
 }
 
 ul.mainmenu li:hover {
   border-left: 1px solid #838383;
   border-right: 1px solid #838383;
-  padding: 10px 29px;
   background:#404040;
 }
 
@@ -82,18 +83,24 @@ ul.footermenu li:hover {
   text-decoration: underline;
 }
 
-ul.mainmenu a, ul.footermenu a {
+ul.mainmenu li a, ul.footermenu li a {
   color: #fff;
   text-decoration: none;
+  display: block;
+  padding: 10px 30px;
 }
 
-ul.footermenu a {
+ul.footermenu li a {
   color: #464646;
+  padding: 10px 29px;
+}
+
+ul.mainmenu li a:hover, ul.footermenu li a:hover {
+  display: block;
+  padding: 10px 29px;
 }
 
 ul.sidebarmenu li {
-  margin-right: 20px;
-  padding: 10px 20px;
   border-left: 1px solid #C8C8C8;
   border-right: 1px solid #C8C8C8;
   border-bottom: 1px solid #C8C8C8;
@@ -103,23 +110,34 @@ ul.sidebarmenu li:nth-child(1) {
   border-top: 1px solid #C8C8C8;
 }
 
-ul.sidebarmenu a {
+ul.sidebarmenu li a {
+  display: block;
+  padding: 10px 20px;
   color: #656363;
   text-decoration: none;
 }
 
-ul.sidebarmenu li:hover {
+ul.sidebarmenu li a:hover {
   background:#F9F9F9;
+  color: black;
   padding: 10px 30px;
 }
 
-ul.sidebarmenu li:hover a {
-  color: black;
+ul.footermenu, .copyright {
+
+  float: left;
+  box-sizing: border-box;
+  width: 75%;
+  font-size: 12px;
+  background: #E1E1E1;
 }
 
 .copyright {
-  padding:10px 10px 0 0;
-  float:right;
+  float: left;
+  box-sizing: border-box;
+  width: 25%;
+  margin: 10px -1px;
+  padding: 10px 10px;
   text-align:right;
   font-size: 14px;
 }
