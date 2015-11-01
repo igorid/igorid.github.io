@@ -1,103 +1,97 @@
-.bl-all-area {
-  text-align: center;
-  background: #eeeeee;
-  padding: 0 25px;
+body {
+  background-color: #eee;
 }
 
-.bl-all-page {
-  width: 1000px;
-  text-align: left;
+.page {
+  width: 75%;
   background: white;
   padding: 10px;
   margin-left: 10%;
-  box-shadow: 0 0 2px 0 #555555;
+  box-shadow: 0 0 2px 0 #555;
 }
 
-.bl-headerfooter,  .bl-mainarea {
+.header,  .mainarea, .footer {
   padding: 12px 5px;
   margin: 0 35px;
 }
 
-.bl-sidebar {
+.sidebar {
   width: 24.7%;
   float: left;
 }
 
-.bl-image, .bl-description {
-  box-sizing: border-box;
+.content {
   float: right;
-  text-align: center;
   width: 73%;
+}
+
+.image {
+  box-sizing: border-box;
+  text-align: center;
   border: solid 1px #C8C8C8;
   margin-bottom: 30px;
 }
 
-.bl-description {
+.description {
   text-align: left;
   padding-left: 20px;
   margin-bottom: 10px;
-  border: none ;
 }
 
 .break-float {
   clear: both;
 }
 
-ul.hr, ul.hr2, ul.vr {
+ul.mainmenu, ul.footermenu, ul.sidebarmenu {
   font-family: sans-serif;
   font-style: normal;
-  font-size: 14px;
+  font-size: 0px;
   margin: 10px 0;
-  padding: 11px 0;
   list-style-type: none;
   background: #5e5e5e;
   background: linear-gradient(to bottom, #5e5e5e, #444343);
 }
 
-ul.hr2 {
+ul.footermenu {
   font-size: 12px;
   background: #E1E1E1;
 }
 
-ul.vr {
+ul.sidebarmenu {
   font-size: 12px;
   padding: 0;
   margin-top: 0;
   background: white;
 }
 
-ul.hr li, ul.hr2 li {
-  display: inline;
-  margin-right: 20px;
-  padding: 10px 20px;
+ul.mainmenu li, ul.footermenu li {
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 0px;
+  padding: 10px 30px;
 }
 
-ul.hr li:nth-child(2) {
+ul.mainmenu li:hover {
   border-left: 1px solid #838383;
   border-right: 1px solid #838383;
+  padding: 10px 29px;
   background:#404040;
 }
 
-ul.hr2 li:nth-child(2) {
+ul.footermenu li:hover {
   text-decoration: underline;
 }
 
-ul.hr2 li:nth-child(5) {
-  padding-left: 325px;
-  padding-right: 0;
-  text-align: right;
-}
-
-ul.hr a, ul.hr2 a {
+ul.mainmenu a, ul.footermenu a {
   color: #fff;
   text-decoration: none;
 }
 
-ul.hr2 a {
+ul.footermenu a {
   color: #464646;
 }
 
-ul.vr li {
+ul.sidebarmenu li {
   margin-right: 20px;
   padding: 10px 20px;
   border-left: 1px solid #C8C8C8;
@@ -105,20 +99,27 @@ ul.vr li {
   border-bottom: 1px solid #C8C8C8;
 }
 
-ul.vr li:nth-child(1) {
+ul.sidebarmenu li:nth-child(1) {
   border-top: 1px solid #C8C8C8;
 }
 
-ul.vr a {
+ul.sidebarmenu a {
   color: #656363;
   text-decoration: none;
 }
 
-ul.vr li:nth-child(3) {
+ul.sidebarmenu li:hover {
   background:#F9F9F9;
   padding: 10px 30px;
 }
 
-ul.vr li:nth-child(3) a {
+ul.sidebarmenu li:hover a {
   color: black;
+}
+
+.copyright {
+  padding:10px 10px 0 0;
+  float:right;
+  text-align:right;
+  font-size: 14px;
 }
