@@ -59,8 +59,6 @@ ul.mainmenu, ul.footermenu, ul.sidebarmenu {
   background: linear-gradient(to bottom, #5e5e5e, #444343);
 }
 
-
-
 ul.sidebarmenu {
   font-size: 12px;
   padding: 0;
@@ -124,7 +122,6 @@ ul.sidebarmenu li a:hover {
 }
 
 ul.footermenu, .copyright {
-
   float: left;
   box-sizing: border-box;
   width: 75%;

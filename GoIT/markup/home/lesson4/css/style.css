@@ -12,6 +12,7 @@
 }
 
 .page {
+  padding: 0 auto;
   width: 1000px;
   text-align: left;
   background: white;
@@ -51,7 +52,7 @@ padding: 5px;
 width: 50px;
 }
 
-countryname {
+countryflag {
   padding: 0px 6px;
 }
 
@@ -99,16 +100,23 @@ countryname {
 .menu li {
   position: relative;
   float: left;
-  padding: 2px 54px 2px 5px;
+
 }
 
 .menu ul li {
-  padding: 4px 8px 4px;
+
   float: none;
 }
 
+.menu ul li a {
+  display: block;
+  padding: 4px 8px 4px;
+}
+
 .menu li a {
+  display: block;
   color: white;
+  padding: 2px 54px 2px 5px;
   text-decoration: none;
   display: block;
 }
