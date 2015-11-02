@@ -1,5 +1,4 @@
 .all-area {
-  /*text-align: center;*/
   background: url(../images/background.jpg);
   padding: 0 25px 20px 0;
 }
@@ -16,8 +15,6 @@
   width: 1000px;
   text-align: left;
   background: #fff;
-  /*margin-left: 10%;*/
-  /*margin-top: 0px;*/
   box-shadow: 1px 1px 1px 0 #000;
 }
 
@@ -72,7 +69,6 @@ width: 50px;
   text-align: left;
   padding-left: 20px;
   margin-bottom: 10px;
-  /*border: none ;*/
 }
 
 .menu ul {
@@ -114,9 +110,8 @@ width: 50px;
 .menu li a {
   display: block;
   color: #fff;
-  padding: 2px 54px 2px 5px;
+  padding: 2px 54px 5px 5px;
   text-decoration: none;
-  display: block;
 }
 
 .menu ul li { float: none; }
