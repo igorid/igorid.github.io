@@ -65,46 +65,46 @@ body {
   font-size: 14px;
 }
 
-.mainmenu li:hover {
-  border-left: 1px solid #838383;
-  border-right: 1px solid #838383;
-  background:#404040;
-}
-
-.footermenu li:hover {
+.footermenu a:hover {
   text-decoration: underline;
 }
 
-.mainmenu li a, .footermenu li a {
+.mainmenu a, .footermenu a {
   color: #fff;
   text-decoration: none;
   display: block;
   padding: 10px 30px;
 }
 
-.footermenu li a {
+.footermenu a {
   color: #464646;
-  padding: 10px 29px;
 }
 
-.mainmenu li a:hover, .footermenu li a:hover {
-  display: block;
+.mainmenu a:hover {
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
+  background:#404040;
   padding: 10px 29px;
 }
 
 .sidebarmenu li {
   margin-bottom: -1px;
+  /*border: 1px solid #C8C8C8;*/
+
+  /*border-collapse: collapse;*/
+  /*border-spacing: */
   border: 1px solid #C8C8C8;
+  /*border-spacing: 20px;*/
 }
 
-.sidebarmenu li a {
+.sidebarmenu a {
   display: block;
   padding: 10px 20px;
   color: #656363;
   text-decoration: none;
 }
 
-.sidebarmenu li a:hover {
+.sidebarmenu a:hover {
   background:#F9F9F9;
   color: #000;
   padding: 10px 30px;
