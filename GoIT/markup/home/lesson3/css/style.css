@@ -4,7 +4,7 @@ body {
 
 .page {
   width: 75%;
-  background: white;
+  background: #fff;
   padding: 10px;
   margin: 0 auto;
   width: 1000px;
@@ -14,12 +14,6 @@ body {
 .header,  .mainarea, .footer {
   padding: 12px 5px;
   margin: 0 35px;
-}
-
-.footer {
-  float: left;
-  width: 100%;
-  padding: 0;
 }
 
 .sidebar {
@@ -49,7 +43,7 @@ body {
   clear: both;
 }
 
-ul.mainmenu, ul.footermenu, ul.sidebarmenu {
+.mainmenu, .footermenu, .sidebarmenu {
   font-family: sans-serif;
   font-style: normal;
   font-size: 0px;
@@ -59,69 +53,64 @@ ul.mainmenu, ul.footermenu, ul.sidebarmenu {
   background: linear-gradient(to bottom, #5e5e5e, #444343);
 }
 
-ul.sidebarmenu {
+.sidebarmenu {
   font-size: 12px;
   padding: 0;
   margin-top: 0;
-  background: white;
+  background: #fff;
 }
 
-ul.mainmenu li, ul.footermenu li {
+.mainmenu li, .footermenu li {
   display: inline-block;
   font-size: 14px;
 }
 
-ul.mainmenu li:hover {
+.mainmenu li:hover {
   border-left: 1px solid #838383;
   border-right: 1px solid #838383;
   background:#404040;
 }
 
-ul.footermenu li:hover {
+.footermenu li:hover {
   text-decoration: underline;
 }
 
-ul.mainmenu li a, ul.footermenu li a {
+.mainmenu li a, .footermenu li a {
   color: #fff;
   text-decoration: none;
   display: block;
   padding: 10px 30px;
 }
 
-ul.footermenu li a {
+.footermenu li a {
   color: #464646;
   padding: 10px 29px;
 }
 
-ul.mainmenu li a:hover, ul.footermenu li a:hover {
+.mainmenu li a:hover, .footermenu li a:hover {
   display: block;
   padding: 10px 29px;
 }
 
-ul.sidebarmenu li {
-  border-left: 1px solid #C8C8C8;
-  border-right: 1px solid #C8C8C8;
-  border-bottom: 1px solid #C8C8C8;
+.sidebarmenu li {
+  margin-bottom: -1px;
+  border: 1px solid #C8C8C8;
 }
 
-ul.sidebarmenu li:nth-child(1) {
-  border-top: 1px solid #C8C8C8;
-}
-
-ul.sidebarmenu li a {
+.sidebarmenu li a {
   display: block;
   padding: 10px 20px;
   color: #656363;
   text-decoration: none;
 }
 
-ul.sidebarmenu li a:hover {
+.sidebarmenu li a:hover {
   background:#F9F9F9;
   color: black;
   padding: 10px 30px;
 }
 
-ul.footermenu, .copyright {
+.footermenu, .copyright {
   float: left;
   box-sizing: border-box;
   width: 75%;
@@ -130,7 +119,6 @@ ul.footermenu, .copyright {
 }
 
 .copyright {
-  float: left;
   box-sizing: border-box;
   width: 25%;
   margin: 10px -1px;
