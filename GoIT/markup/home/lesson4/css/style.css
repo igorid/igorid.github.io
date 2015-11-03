@@ -1,15 +1,13 @@
 .background1 {
-  position: absolute;
+  /*position: absolute;
   background:#0C739F;
   right: 0;
-  left: 0;
+  left: 0;*/
 }
 
-
 .background2 {
-  background: url(../images/background.png) repeat-x;
-  padding: 0 25px 20px 0;
-
+  background-color: #0C739F;
+  background-image: url(../images/background.png) repeat-x;
 }
 
 .copyright {
