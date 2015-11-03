@@ -76,25 +76,27 @@ body {
   padding: 10px 30px;
 }
 
+.mainmenu a {
+  border-left: 1px solid rgba(0, 0, 0, 0);
+  border-right: 1px solid rgba(0, 0, 0, 0);
+}
+
 .footermenu a {
   color: #464646;
 }
 
 .mainmenu a:hover {
-  border-left: 1px solid #838383;
-  border-right: 1px solid #838383;
+  border-color: rgba(150, 150, 150, 1);
   background:#404040;
-  padding: 10px 29px;
 }
 
 .sidebarmenu li {
-  margin-bottom: -1px;
-  /*border: 1px solid #C8C8C8;*/
-
-  /*border-collapse: collapse;*/
-  /*border-spacing: */
   border: 1px solid #C8C8C8;
-  /*border-spacing: 20px;*/
+  border-top-width: 0;
+}
+
+.sidebarmenu li:first-child {
+border-top-width: 1px;
 }
 
 .sidebarmenu a {
