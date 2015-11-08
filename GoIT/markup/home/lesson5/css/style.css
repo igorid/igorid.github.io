@@ -84,7 +84,7 @@ body {
   font-size: 24px;
 }
 
-.facebook, .ou-div, .newcustomer {
+.facebooklogin, .ou-div, .newcustomer {
  width: 276px;
  margin: auto;
  padding: 28px 0 0 0;
@@ -122,12 +122,12 @@ body {
   margin: 9px 0;
   padding: 8px 16px;
   border: none;
-  border-bottom: 1px solid #545754;
 }
 
 .textfield {
   background: #000;
-  border: 1px solid rgba(0,0,0,0);
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #545754;
 }
 
 .checkboxtext {
