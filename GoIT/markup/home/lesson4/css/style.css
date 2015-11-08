@@ -1,6 +1,5 @@
-.all-area {
-  background: url(../images/background.jpg);
-  padding: 0 25px 20px 0;
+.sitebackground {
+  background: #0C739F url(../images/background.png) repeat-x;
 }
 
 .copyright {
@@ -22,7 +21,7 @@
   box-sizing: border-box;
   float: left;
   text-align: left;
-  height: 177px;
+  height: 174px;
 }
 
 .contacts {
