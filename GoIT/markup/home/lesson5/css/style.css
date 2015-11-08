@@ -1,0 +1,168 @@
+body {
+  background-color: #eee;
+  color: #fff;
+  font-family: "Helvetica Neue LT Std 45 Light", Arial;
+  font-size: 14px;
+}
+
+.header {
+  background: url(../images/menu-texture.png) repeat-x;
+  height: 33px;
+}
+
+.mainmenu {
+  float: right;
+  font-style: normal;
+  font-size: 0px;
+}
+
+.mainmenu li {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.mainmenu li:last-child {
+  border-right: 1px solid #3783BF;
+}
+
+.mainmenu a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+}
+
+.mainmenu a:hover {
+  border-color: rgba(150, 150, 150, 1);
+  background:#4EABDA;
+}
+
+.header-right, .header-center {
+  float: right;
+  padding: 8px 10px 0;
+  height: 100%;
+}
+
+.header-center a {
+  float: right;
+  padding: 2px 0 0 0;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-right {
+  padding: 10px 10px 0;
+  height: 100%;
+  background: linear-gradient(to bottom, #50AFDC, #2E7AC4);
+  border-radius: 2px;
+  border-left: #58A3DD;
+  border-right: #54A1DB;
+}
+
+.header-right a {
+  padding: 0 2px;
+  color: #fff;
+}
+
+.registrationform {
+  position: fixed;
+  display: block;
+  left: 0; top: 0; bottom: 0; right: 0;
+  margin: auto;
+  width: 560px;
+  height: 613px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.cadastre {
+  border-bottom: 2px solid #B4BCA3;
+  padding: 18px;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+}
+
+.facebook, .ou-div, .newcustomer {
+ width: 276px;
+ margin: auto;
+ padding: 28px 0 0 0;
+}
+
+.ou-div {
+  padding: 20px 0 8px 0;
+}
+
+.ou-line {
+  display: block;
+  float: left;
+  width: 42%;
+  border-bottom: 1px solid #666;
+  box-shadow: 0px 1px 0px #333;
+  height: 8px;
+}
+
+.ou-text {
+  font-size: 14px;
+  padding: 22px 0 0 0;
+  width: 16%;
+  text-align: center;
+  color: grey;
+  float: left;
+  padding-top: 0;
+}
+
+.textfield, .createaccount, .facebookbutton {
+  font-family: "Helvetica Neue LT Std 45 Light", Arial;
+  font-size: 14px;
+  background: rgba(255, 0, 0, 0);
+  color: #fff;
+  width: 100%;
+  margin: 9px 0;
+  padding: 8px 16px;
+  border: none;
+  border-bottom: 1px solid #545754;
+}
+
+.textfield {
+  background: #000;
+  border: 1px solid rgba(0,0,0,0);
+}
+
+.checkboxtext {
+  display: inline-block;
+  margin-top: 14px;
+}
+
+.checkboxfield {
+  position: relative;
+  display: inline-block;
+  top: 2px;
+}
+
+.createaccount {
+  width: 151px;
+  display: block;
+  margin: 22px auto;
+  background: #4299d2;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.facebookbutton {
+  background-image: url(../images/facebook-button.png);
+  height: 35px;
+}
+
+.footertext{
+  font-size: 10px;
+  text-align: center;
+}
+
+.textfield:focus {
+  background: #1B5288;
+  box-shadow: 0px 0px 20px rgba(80,175,220,0.8);
+  border: 1px solid #689BCC;
+}

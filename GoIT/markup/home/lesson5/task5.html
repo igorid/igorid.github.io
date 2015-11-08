@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css" media="screen">
+  <link rel="stylesheet" href="css/general.css" media="screen">
+  <link rel="stylesheet" href="css/style.css" media="screen">
+</head>
+<body>
+  <div class="header clearfix">
+      <div class="header-right">
+        Ola!
+        <a href="#7">Entrar</a>
+        ou
+        <a href="#8">Cadastre-se</a>
+      </div>
+      <div class="header-center">
+        <img src="images/flag-icon.png" alt="Флажек" height="20px">
+        <a href="#6" >Minhas Ofertas</a>
+      </div>
+      <ul class="mainmenu">
+        <li><a href="#1">Meu YouBike</a></li>
+        <li><a href="#2">Vendur</a></li>
+        <li><a href="#3">Forum</a></li>
+        <li><a href="#4">Contato</a></li>
+        <li><a href="#5">Ajuda</a></li>
+      </ul>
+  </div>
+  <div class="sitebackground">
+    <img src="images/background.jpg" alt="Задний фон" width="100%">
+  </div>
+  <form class="registrationform" action="index.html" method="post">
+    <div class="cadastre"> <p> Cadastre-se </p> </div>
+    <div class="facebook"> <input type="button" class="facebookbutton" name="name1" value=""> </div>
+    <div class="ou-div">
+      <div class="ou-line"></div>
+      <div class="ou-text"> OU </div>
+      <div class="ou-line"></div>
+    </div>
+    <div class="newcustomer">
+      <input type="text" class="textfield" name="firstname" placeholder="First Name">
+      <input type="text" class="textfield" name="lastname" placeholder="Last Name">
+      <input type="email" class="textfield" name="email" placeholder="Email Address">
+      <input type="password" class="textfield" name="password" placeholder="Choose Password">
+      <input type="password" class="textfield" name="password2" placeholder="Password Confirm">
+      <input type="checkbox" class="checkboxfield" id="checkbox" value="">
+      <label for="checkbox" class="checkboxtext">Send me Youbike updates and tips</label>
+      <input type="button" class="createaccount" name="createaccount" value="Create my Account">
+      <div class="footertext"> By clicking the button above, you agree to the Terms of Service Xiew our Privacy Policy.</div>
+    </div>
+  </form>
+</body>
+</html>
