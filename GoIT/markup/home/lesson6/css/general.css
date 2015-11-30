@@ -1,0 +1,31 @@
+.to-right-bottom {
+  position:absolute;
+  bottom:0;
+	right:0;
+}
+
+
+h1 {
+  padding: 6px 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.clearfix:after{
+  visibility: hidden;
+  content: "";
+  clear:both;
+  display: block;
+}
+
+.floatleft{
+  float: left;
+}
+
+input { outline-style: none; }
+
+/*input[type="checkbox"] {*/
+  /*display:none;*/
+/*}*/

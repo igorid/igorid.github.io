@@ -26,6 +26,10 @@ body {
   width: 73%;
 }
 
+.description{
+  font-family: sans-serif;
+}
+
 .image {
   box-sizing: border-box;
   text-align: center;
