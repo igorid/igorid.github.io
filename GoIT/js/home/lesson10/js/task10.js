@@ -3,7 +3,7 @@ function pow(num, exp) {
         return 0;
     }
     else {
-        if ( (exp % 2 == 0) && (exp > 0) ) {
+        if ( (exp == Math.ceil(exp) ) && (exp > 0) ) {
             result = 1;
             for (var i = 1; i <= exp; i++) {
                 result *= num
