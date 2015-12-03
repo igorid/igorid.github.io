@@ -1,0 +1,63 @@
+.pic {
+  border-spacing: 0;
+}
+.pic td {
+  border-right: 8px solid #000;
+  border-bottom: 8px solid #000;
+}
+.row1 {
+  height: 50px;
+}
+.row2, .row3 {
+  height: 130px;
+}
+.row4, .row5 {
+  height: 60px;
+}
+
+.row6, .row7 {
+  height: 30px;
+}
+
+.col1 {
+  width: 48px;
+}
+.col2, .col3 {
+  width: 60px;
+}
+
+.col4 {
+  width: 130px;
+}
+.col5, .col6 {
+  width: 75px;
+}
+
+.row5>.col1, .row7>.col2, .row7>.col3, .row7>.col4 {
+  border-bottom: 0;
+}
+.row1>.col5, .row2>.col5, .row3>.col6, .row4>.col5, .row5>.col5, .row7>.col4, .row7>.col2  {
+  border-right: 0;
+}
+
+.row6>.col2 {
+  border-bottom: 0;
+}
+
+.row1>.col5, .row5>.col1, .row2>.col5 {
+  background: #ffff00;
+}
+.row2>.col2 {
+  background: #ff0000;
+}
+
+.row4>.col2, .row6>.col4 {
+  background: #333;
+}
+
+.row5>.col5 {
+  background: #0000ff;
+}
+
+
+

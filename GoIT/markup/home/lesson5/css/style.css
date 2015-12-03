@@ -5,6 +5,45 @@ body {
   font-size: 14px;
 }
 
+
+.to-right-bottom {
+  position:absolute;
+  bottom:0;
+	right:0;
+}
+
+h1 {
+  padding: 6px 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.clearfix:after{
+  visibility: hidden;
+  content: "";
+  clear:both;
+  display: block;
+}
+
+@font-face {
+font-family: 'Helvetica Neue LT Std 45 Light';
+font-style: normal;
+font-weight: normal;
+src: local('Helvetica Neue LT Std 45 Light'), url('../fonts/HelveticaNeueLTStd Lt.woff') format('woff');
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+input[type="text"]:-moz-placeholder,  input[type="email"]:-moz-placeholder,  input[type="password"]:-moz-placeholder { color: #fff; }
+input[type="text"]::-webkit-input-placeholder, input[type="email"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder { color: #fff; }
+
 .header {
   background: url(../images/menu-texture.png) repeat-x;
   height: 33px;
@@ -166,3 +205,4 @@ body {
   box-shadow: 0px 0px 20px rgba(80,175,220,0.8);
   border: 1px solid #689BCC;
 }
+
