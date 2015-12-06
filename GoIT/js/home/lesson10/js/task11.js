@@ -12,11 +12,11 @@ nameToCompare = prompt('Введите имя пользователя:');
 while ( (notFind) && ( i>0 ) ){
     i--;
     if ( nameArr[i] === nameToCompare ) {
-        console.log( nameArr[i] + ' ,Вы успешно вошли.');
+        alert( nameArr[i] + ' ,Вы успешно вошли.');
         notFind = false;
     }
 }
 
 if ( notFind ) {
-    console.log(nameToCompare + ' ,не верная регистрация');
+    alert(nameToCompare + ' ,не верная регистрация');
 }
