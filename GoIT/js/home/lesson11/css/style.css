@@ -1,0 +1,22 @@
+.pure-form{
+    margin: 20px 20px;
+    padding: 20px 20px;
+    border: 2px solid #000;
+
+}
+
+.pure-form h1{
+    text-align: center;
+}
+
+.pure-form .button-success{
+    display: block;
+    position: relative;
+    left:0; right:0;
+    margin:0 auto;
+}
+
+
+
+
+
