@@ -1,0 +1,40 @@
+
+
+.pure-button{
+    width:100px;
+    margin-right: 20px;
+}
+
+.start__timer{
+    color:blue;
+}
+
+.stop__timer{
+    color:red;
+}
+
+.reset__timer {
+    color:green;
+}
+
+.wrapper {
+    margin: 20px 20px;
+    padding: 20px 20px;
+    border: 2px solid #000;
+}
+
+.hour, .min, .sec{
+  display: inline-block;
+}
+
+.hour:after, .min:after {
+    content: ":";
+}
+
+
+
+
+
+
+
+
