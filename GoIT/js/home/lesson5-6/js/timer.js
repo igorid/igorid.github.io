@@ -1,5 +1,7 @@
 function TTimer(parrentElement, classListName, timerIdInterval) {
+
     var self = this;
+    self._TIMERRNDIDINTERVAL = 9;
     self._HHTEMPLATE = "00";
     self._MMTEMPLATE = "00";
     self._SSTEMPLATE = "00";
@@ -41,6 +43,7 @@ function TTimer(parrentElement, classListName, timerIdInterval) {
         self.status = 'start';
         self.startTime = Date.now();
         self.endTime = undefined;
+        //self._setTimeInterval();
         self._timerId = setInterval(self.refresh, self._timerIdInterval);
     };
 
@@ -49,8 +52,17 @@ function TTimer(parrentElement, classListName, timerIdInterval) {
         self.endTime = Date.now();
         self._time = self._time + self.endTime - self.startTime;
         if (self._timerId !== undefined ) {
-            clearInterval(self._timerId)
+            self._timerId = clearInterval(self._timerId);
+
         }
+    };
+
+    self.rndTimeInterval = function() {
+        if (self._timerId !== undefined ) {
+            self._timerId = clearInterval(self._timerId);
+            self._timerId = setInterval(self.refresh, self._timerIdInterval + Math.floor(Math.random( ) * (self._TIMERRNDIDINTERVAL )));
+        }
+
     };
 
     self.reset = function() {
@@ -103,10 +115,13 @@ function TTimer(parrentElement, classListName, timerIdInterval) {
 
     self.refresh = function() {
         var timeArr = self.getTime();
+
         self.elementHH.innerHTML = self.strToTemplate(timeArr['hh'].toString(), self._HHTEMPLATE);
         self.elementMM.innerHTML = self.strToTemplate(timeArr['mm'].toString(), self._MMTEMPLATE);
         self.elementSS.innerHTML = self.strToTemplate(timeArr['ss'].toString(), self._SSTEMPLATE);
         self.elementMS.innerHTML = self.strToTemplate(timeArr['ms'].toString(), self._MSTEMPLATE);
+
+        self.rndTimeInterval();
     };
 
     self.refresh();
@@ -149,6 +164,7 @@ function TButton(parrentElement, classListName, text, customCssClass, action) {
 
 function onStartButtonClick(timer, startButton, startButtonArr) {
     if ( (timer.status === 'reset') || (timer.status === 'stop') ) {
+        //timer.rndTimeInterval();
         timer.start();
     } else {
         if (timer.status === 'start') {
@@ -158,6 +174,7 @@ function onStartButtonClick(timer, startButton, startButtonArr) {
     }
     startButton.changeText(startButtonArr[timer.status]['buttonText']);
     startButton.changeCSS(startButtonArr[timer.status]['customCssClass']);
+
 }
 
 function onResetButtonClick(timer, startButton) {
@@ -170,7 +187,7 @@ function onResetButtonClick(timer, startButton) {
 }
 
 var container = document.querySelector('.wrapper');
-var TIMERIDINTERVAL = 1;
+var TIMERIDINTERVAL = 33;
 
 var timeListNamesArr = {hh:'hour',mm:'min',ss:'sec',ms:'msec'};
 var timer = new TTimer(container, timeListNamesArr, TIMERIDINTERVAL);
