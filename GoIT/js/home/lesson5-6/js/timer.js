@@ -43,7 +43,6 @@ function TTimer(parrentElement, classListName, timerIdInterval) {
         self.status = 'start';
         self.startTime = Date.now();
         self.endTime = undefined;
-        //self._setTimeInterval();
         self._timerId = setInterval(self.refresh, self._timerIdInterval);
     };
 
@@ -121,7 +120,6 @@ function TTimer(parrentElement, classListName, timerIdInterval) {
         self.elementSS.innerHTML = self.strToTemplate(timeArr['ss'].toString(), self._SSTEMPLATE);
         self.elementMS.innerHTML = self.strToTemplate(timeArr['ms'].toString(), self._MSTEMPLATE);
 
-        self.rndTimeInterval();
     };
 
     self.refresh();
@@ -164,7 +162,7 @@ function TButton(parrentElement, classListName, text, customCssClass, action) {
 
 function onStartButtonClick(timer, startButton, startButtonArr) {
     if ( (timer.status === 'reset') || (timer.status === 'stop') ) {
-        //timer.rndTimeInterval();
+        timer.rndTimeInterval();
         timer.start();
     } else {
         if (timer.status === 'start') {
